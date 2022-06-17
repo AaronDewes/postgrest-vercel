@@ -1,9 +1,6 @@
 const postgrest = require("postgrest")
 const getPort = require("get-port")
-const micro = require("micro")
-const { URL } = require("url")
 const fetch = require("node-fetch")
-const delay = require("delay")
 
 let postgrestPort, postgrestUrl, server
 
